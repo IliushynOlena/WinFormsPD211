@@ -5,9 +5,13 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_IntroToWF", "01_IntroToWF\01_IntroToWF.csproj", "{916C2EE1-AC27-4373-97A9-8E52E4B3CDBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_RunningButton", "02_RunningButton\02_RunningButton.csproj", "{E88CB57A-BCFD-44BF-A026-24ED78D6FFAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_RunningButton", "02_RunningButton\02_RunningButton.csproj", "{E88CB57A-BCFD-44BF-A026-24ED78D6FFAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_BaseControls", "03_BaseControls\03_BaseControls.csproj", "{3A11F2E8-54B5-4060-B4EB-CB6C6642546A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_BaseControls", "03_BaseControls\03_BaseControls.csproj", "{3A11F2E8-54B5-4060-B4EB-CB6C6642546A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Controls", "04_Controls\04_Controls.csproj", "{61B18A12-9404-4EA0-A455-52883F4FFD80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ProgressBarTrackBar", "05_ProgressBarTrackBar\05_ProgressBarTrackBar.csproj", "{D9D09675-0DC5-490F-8C63-C73700D333F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{3A11F2E8-54B5-4060-B4EB-CB6C6642546A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A11F2E8-54B5-4060-B4EB-CB6C6642546A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A11F2E8-54B5-4060-B4EB-CB6C6642546A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B18A12-9404-4EA0-A455-52883F4FFD80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B18A12-9404-4EA0-A455-52883F4FFD80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B18A12-9404-4EA0-A455-52883F4FFD80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B18A12-9404-4EA0-A455-52883F4FFD80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9D09675-0DC5-490F-8C63-C73700D333F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9D09675-0DC5-490F-8C63-C73700D333F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9D09675-0DC5-490F-8C63-C73700D333F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9D09675-0DC5-490F-8C63-C73700D333F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
