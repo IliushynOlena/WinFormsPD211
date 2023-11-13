@@ -57,6 +57,7 @@
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.projectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).BeginInit();
@@ -304,7 +305,7 @@
             // infoToolStripMenuItem
             // 
             this.infoToolStripMenuItem.Name = "infoToolStripMenuItem";
-            this.infoToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
+            this.infoToolStripMenuItem.Size = new System.Drawing.Size(246, 54);
             this.infoToolStripMenuItem.Text = "Info";
             // 
             // helpToolStripMenuItem
@@ -313,27 +314,36 @@
             this.projectToolStripMenuItem,
             this.fileToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(246, 54);
             this.helpToolStripMenuItem.Text = "Help";
             this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
             // 
             // projectToolStripMenuItem
             // 
             this.projectToolStripMenuItem.Name = "projectToolStripMenuItem";
-            this.projectToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
+            this.projectToolStripMenuItem.Size = new System.Drawing.Size(276, 54);
             this.projectToolStripMenuItem.Text = "Project";
             // 
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(276, 54);
             this.fileToolStripMenuItem.Text = "File";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(1141, 888);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(544, 47);
+            this.textBox1.TabIndex = 9;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(2150, 1124);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -391,5 +401,6 @@
         private ToolStripMenuItem helpToolStripMenuItem;
         private ToolStripMenuItem projectToolStripMenuItem;
         private ToolStripMenuItem fileToolStripMenuItem;
+        private TextBox textBox1;
     }
 }

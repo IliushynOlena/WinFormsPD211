@@ -62,14 +62,22 @@ namespace _05_ProgressBarTrackBar
 
         private void trackBar4_ValueChanged(object sender, EventArgs e)
         {
+            
             //0.......1
             this.Opacity = trackBar4.Value / 100.0;
+           
         }
 
         private void helpToolStripMenuItem_Click(object sender, EventArgs e)
         {
             
 
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            textBox1.MaxLength = (int)numericUpDown1.Value;
+            toolStripStatusLabel1.Text = $"Count all/ Max Lenght {textBox1.Text.Length}/ {textBox1.MaxLength}";
         }
     }
 }
