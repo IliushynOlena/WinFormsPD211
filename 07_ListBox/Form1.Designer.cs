@@ -91,7 +91,8 @@
             "Black",
             "White",
             "Gray",
-            "Brown"});
+            "Brown",
+            "Pink"});
             this.checkedListBox1.Location = new System.Drawing.Point(1397, 190);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(810, 752);

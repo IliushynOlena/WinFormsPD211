@@ -47,6 +47,7 @@ namespace _06_ComboBox
 
         private void removeSelectedBtn_Click(object sender, EventArgs e)
         {
+         
             if (orderComboBox.SelectedIndex == -1) return;
 
             orders.RemoveAt(orderComboBox.SelectedIndex);

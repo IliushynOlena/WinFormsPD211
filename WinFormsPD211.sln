@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Controls", "04_Controls\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_ProgressBarTrackBar", "05_ProgressBarTrackBar\05_ProgressBarTrackBar.csproj", "{D9D09675-0DC5-490F-8C63-C73700D333F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_ComboBox", "06_ComboBox\06_ComboBox.csproj", "{EBB3A0E4-4BA6-4C57-9D59-89E9889F3E92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_ComboBox", "06_ComboBox\06_ComboBox.csproj", "{EBB3A0E4-4BA6-4C57-9D59-89E9889F3E92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_ListBox", "07_ListBox\07_ListBox.csproj", "{11D1BE87-D957-4459-A1D6-00322178348E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_ListBox", "07_ListBox\07_ListBox.csproj", "{11D1BE87-D957-4459-A1D6-00322178348E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_AdditionalsForm", "08_AdditionalsForm\08_AdditionalsForm.csproj", "{1082BF15-4397-451B-80C6-BE934CD6E700}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{11D1BE87-D957-4459-A1D6-00322178348E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11D1BE87-D957-4459-A1D6-00322178348E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11D1BE87-D957-4459-A1D6-00322178348E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1082BF15-4397-451B-80C6-BE934CD6E700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1082BF15-4397-451B-80C6-BE934CD6E700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1082BF15-4397-451B-80C6-BE934CD6E700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1082BF15-4397-451B-80C6-BE934CD6E700}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

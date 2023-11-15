@@ -6,6 +6,7 @@ namespace _07_ListBox
         {
             InitializeComponent();
             listBox1.BorderStyle = BorderStyle.FixedSingle;
+            //listBox1.DataSource = products;
         }
 
         private void addBtn_Click(object sender, EventArgs e)
@@ -39,10 +40,18 @@ namespace _07_ListBox
 
         private void moveRightBtn_Click(object sender, EventArgs e)
         {
+           
             foreach (var item in listBox1.SelectedItems)
             {
+                //MessageBox.Show(item.ToString());
                 checkedListBox1.Items.Add(item);
+                //listBox1.Items.RemoveAt(listBox1.SelectedIndex);
             }
+            while (listBox1.SelectedItems.Count > 0)
+            {
+                listBox1.Items.RemoveAt(listBox1.SelectedIndex);
+            }
+
         }
 
         private void moveLeftBtn_Click(object sender, EventArgs e)
@@ -50,6 +59,10 @@ namespace _07_ListBox
             foreach (var item in checkedListBox1.CheckedItems)
             {
                 listBox1.Items.Add(item);
+            }
+            while (checkedListBox1.CheckedItems.Count > 0)
+            {
+                checkedListBox1.Items.RemoveAt(checkedListBox1.CheckedIndices[0]);
             }
         }
 
