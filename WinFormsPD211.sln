@@ -17,7 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_ComboBox", "06_ComboBox\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_ListBox", "07_ListBox\07_ListBox.csproj", "{11D1BE87-D957-4459-A1D6-00322178348E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_AdditionalsForm", "08_AdditionalsForm\08_AdditionalsForm.csproj", "{1082BF15-4397-451B-80C6-BE934CD6E700}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_AdditionalsForm", "08_AdditionalsForm\08_AdditionalsForm.csproj", "{1082BF15-4397-451B-80C6-BE934CD6E700}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Dialogs", "09_Dialogs\09_Dialogs.csproj", "{6E438920-1A15-4FD7-9572-3FBC5544EC02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_RichTextBox", "10_RichTextBox\10_RichTextBox.csproj", "{6F37A44B-3981-48AE-86E1-9DF319A447BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{1082BF15-4397-451B-80C6-BE934CD6E700}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1082BF15-4397-451B-80C6-BE934CD6E700}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1082BF15-4397-451B-80C6-BE934CD6E700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E438920-1A15-4FD7-9572-3FBC5544EC02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E438920-1A15-4FD7-9572-3FBC5544EC02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E438920-1A15-4FD7-9572-3FBC5544EC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E438920-1A15-4FD7-9572-3FBC5544EC02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F37A44B-3981-48AE-86E1-9DF319A447BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F37A44B-3981-48AE-86E1-9DF319A447BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F37A44B-3981-48AE-86E1-9DF319A447BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F37A44B-3981-48AE-86E1-9DF319A447BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
