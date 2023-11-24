@@ -18,7 +18,7 @@ namespace _11_TreeViewListView
         void LoadImageList()
         {
             ImageList imageList = new ImageList();
-            imageList.Images.Add(new Bitmap(@"C:\Users\helen\source\repos\WinFormsPD211\11_TreeViewListView\img\folder.png"));
+            //imageList.Images.Add(new Bitmap(@"\\.\img\folder.png"));
             imageList.Images.Add(new Bitmap(@"C:\Users\helen\source\repos\WinFormsPD211\11_TreeViewListView\img\\openFolder.png"));
             imageList.Images.Add(new Bitmap(@"C:\Users\helen\source\repos\WinFormsPD211\11_TreeViewListView\img\\select.png"));
 
