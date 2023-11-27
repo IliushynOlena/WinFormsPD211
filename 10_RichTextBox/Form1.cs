@@ -1,3 +1,5 @@
+using System.Windows.Forms;
+
 namespace _10_RichTextBox
 {
     public partial class Form1 : Form
@@ -6,7 +8,20 @@ namespace _10_RichTextBox
         public Form1()
         {
             InitializeComponent();
+            richTextBox1.AllowDrop = true;
+            richTextBox1.DragDrop += RichTextBox1_DragDrop1;
         }
+
+        private void RichTextBox1_DragDrop1(object? sender, DragEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void RichTextBox1_DragDrop(object? sender, DragEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             richTextBox1.SelectionFont = new Font(FontFamily.GenericMonospace, 25, FontStyle.Bold);  

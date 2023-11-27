@@ -25,9 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_RichTextBox", "10_RichTe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_TreeViewListView", "11_TreeViewListView\11_TreeViewListView.csproj", "{FB5D5212-DE37-40FD-9901-8A8E47FB3668}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_TabControl", "12_TabControl\12_TabControl.csproj", "{D215364D-56A7-4393-B62D-67DBFEDE14E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_TabControl", "12_TabControl\12_TabControl.csproj", "{D215364D-56A7-4393-B62D-67DBFEDE14E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_DragDrop", "13_DragDrop\13_DragDrop.csproj", "{1E86CA56-19B3-42D5-8BD6-AEBE1E65E169}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_DragDrop", "13_DragDrop\13_DragDrop.csproj", "{1E86CA56-19B3-42D5-8BD6-AEBE1E65E169}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_GraphicsGDI", "14_GraphicsGDI\14_GraphicsGDI.csproj", "{AB4BA51D-0ED7-4CDF-BF27-390AE24BFE15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Paint", "15_Paint\15_Paint.csproj", "{7ED0939C-0B53-4E81-B32C-13BAF17B494F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{1E86CA56-19B3-42D5-8BD6-AEBE1E65E169}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E86CA56-19B3-42D5-8BD6-AEBE1E65E169}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E86CA56-19B3-42D5-8BD6-AEBE1E65E169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB4BA51D-0ED7-4CDF-BF27-390AE24BFE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB4BA51D-0ED7-4CDF-BF27-390AE24BFE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB4BA51D-0ED7-4CDF-BF27-390AE24BFE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB4BA51D-0ED7-4CDF-BF27-390AE24BFE15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED0939C-0B53-4E81-B32C-13BAF17B494F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED0939C-0B53-4E81-B32C-13BAF17B494F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED0939C-0B53-4E81-B32C-13BAF17B494F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED0939C-0B53-4E81-B32C-13BAF17B494F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
