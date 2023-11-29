@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_DragDrop", "13_DragDrop\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_GraphicsGDI", "14_GraphicsGDI\14_GraphicsGDI.csproj", "{AB4BA51D-0ED7-4CDF-BF27-390AE24BFE15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Paint", "15_Paint\15_Paint.csproj", "{7ED0939C-0B53-4E81-B32C-13BAF17B494F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_Paint", "15_Paint\15_Paint.csproj", "{7ED0939C-0B53-4E81-B32C-13BAF17B494F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_Notifications", "16_Notifications\16_Notifications.csproj", "{64A52C9A-2FCE-44E4-A554-C580727CE710}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{7ED0939C-0B53-4E81-B32C-13BAF17B494F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ED0939C-0B53-4E81-B32C-13BAF17B494F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ED0939C-0B53-4E81-B32C-13BAF17B494F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A52C9A-2FCE-44E4-A554-C580727CE710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A52C9A-2FCE-44E4-A554-C580727CE710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A52C9A-2FCE-44E4-A554-C580727CE710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A52C9A-2FCE-44E4-A554-C580727CE710}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
